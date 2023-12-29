@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title> Rock Paper Scissors</title>
+</head>
+
+<body>
+    <section class="one" >
+        <h1 class="heading">Rock Paper Scissors</h1>
+        <div class="score">
+            <div class="playerScoreDisplay"> <p></p> </div>
+            <div class="computerScoreDisplay"> </div>
+        </div>
+    </section>
+
+    <section class="two">
+        <div class="displayResult"></div>
+    </section>
+
+    <section class="three">
+        <div class="player" id="player">
+        </div>
+        <div class="instructions"><p><b>Try to beat computer. To select your move of choice, click the buttons below!</p></div>
+        <div class="computer" id="computer">
+        </div>
+    </section>
+
+    <section class="three">
+        <div class="playerChoice">
+            <button class="rButton" onClick="playRound('rock')" > <b>rock</b> </button>
+            <button class="pButton" onClick="playRound('paper')" > <b>paper</b> </button>
+            <button class="sButton" onClick="playRound('scissors')"> <b>scissors</b> </button>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

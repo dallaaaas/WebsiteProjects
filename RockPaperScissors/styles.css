@@ -1,0 +1,116 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    font-family: 'Comic Neue', cursive;
+}
+
+.instructions {
+    justify-content: center;
+
+    margin-top: 40px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 25px;
+}
+
+.score {
+    display: flex;
+    width: 250px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto;
+    margin-top: 50px;
+    font-family: 'Comic Neue', cursive;   
+}
+
+.playerScoreDisplay {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    margin: 5px;
+    font-size: 30px; 
+    margin-right: 40px;   
+}
+
+.computerScoreDisplay {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    margin: 5px;
+    font-size: 30px;
+    margin-left: 40px;   
+}
+
+.displayResult {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: -70px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 50px;
+}
+
+.three {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    margin-right: 10px;
+    margin-bottom: -130px;    
+}
+
+.player {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    margin-right: 10px;
+}
+
+#player {
+    width: 400px;
+    height: 400px;
+}
+
+.computer {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    margin-right: 10px;
+}
+
+.playerChoice {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.rButton, .pButton, .sButton {
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    font-family: 'Comic Neue', cursive;
+}
+
+.giveUp {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    font-family: 'Comic Neue', cursive;
+}
+
+#giveUp{
+    position: relative;
+    transition: transform 0.5s ease-in-out;
+  }
