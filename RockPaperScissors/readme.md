@@ -1,2 +1,1 @@
-This first project is a rock paper scissors game where your opponent is a computer. The goal of this game is to beat the computer.
-The catch is, the computer is coded to be unbeatable. Yes, this project is stupid but I thought it would be funny. 
+This first project is a rock paper scissors game where your opponent is a computer. The goal of this game is to beat the computer. The catch is, the computer is coded to be unbeatable. Yes, this project is stupid but I thought it would be funny. 
